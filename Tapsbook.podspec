@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name = 'Tapsbook'
   s.version = '2.1.2'
   s.author = 'Tapsbook'
-  s.license = { :type => 'MIT', :file => 'MIT-LICENSE.txt' }
+  s.license = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.homepage    = "http://tapsbook.com"
   s.summary = "Tapsbook iOS SDK."
   s.documentation_url = 'http://tapsbook.com/doc'
@@ -25,7 +25,6 @@ Pod::Spec.new do |s|
   s.resource            = 'TapsbookSDK.bundle'
 
   s.libraries = 'sqlite3', 'z'
-
   s.framework = "UIKit"
   s.framework = "Accelerate"
   s.framework = "AdSupport"
@@ -65,7 +64,6 @@ Pod::Spec.new do |s|
   s.dependency 'TLLayoutTransitioning', '~> 1.0'
   s.dependency 'TTTAttributedLabel', '~> 1.13'
   s.dependency 'TTTRandomizedEnumerator', '~> 0.0'
-  s.dependency 'TZImagePickerController', '~> 1.7.1'
 
   #Model
   s.dependency 'FMDB', '~> 2.5'
@@ -78,9 +76,11 @@ Pod::Spec.new do |s|
   #Payment integration (Alipay, Wechat supported via their framework)
   s.dependency 'Stripe', '~> 6.0'
 
-  #Social share (Wechat supported via their framework)
-  s.dependency 'FBSDKCoreKit'
-  s.dependency 'FBSDKLoginKit'
-  s.dependency 'FBSDKShareKit'
+    s.dependency 'AlipaySDK-2.0'
+    s.dependency 'libWeChatSDK'
+    s.dependency 'FBSDKCoreKit'
+    s.dependency 'FBSDKLoginKit'
+    s.dependency 'FBSDKShareKit'
+
 
 end

@@ -1,0 +1,14 @@
+platform :ios, 8.0
+
+def available_pods
+pod 'Tapsbook'
+pod 'TZImagePickerController', '~> 1.7.1'
+
+#disabled for China build
+#pod 'GoogleAnalytics', '3.14.0'
+end
+
+
+target :TapsbookDemo do
+available_pods
+end
