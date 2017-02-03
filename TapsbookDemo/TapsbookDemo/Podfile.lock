@@ -171,7 +171,7 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
-  - SlackTextViewController (1.9.5)
+  - SlackTextViewController (1.7)
   - smc-runtime (6.3.0)
   - Stripe (6.2.0):
     - Stripe/Core (= 6.2.0)
@@ -223,8 +223,13 @@ PODS:
   - UICKeyChainStore (2.1.0)
 
 DEPENDENCIES:
-  - Tapsbook
+  - SlackTextViewController (= 1.7)
+  - Tapsbook (from `../../`)
   - TZImagePickerController (~> 1.7.1)
+
+EXTERNAL SOURCES:
+  Tapsbook:
+    :path: "../../"
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -264,7 +269,7 @@ SPEC CHECKSUMS:
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SCLAlertView-Objective-C: 6a7639e443be62dca1e13b004702d5c3642f7f36
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
-  SlackTextViewController: fbcdadbb8090673f604484ff5b6eb8d77baed42a
+  SlackTextViewController: 57e28248dd38b9753277733544449519842f1ea5
   smc-runtime: 3941bb60d22acbec01ae9ca31d290a4fdcd513e1
   Stripe: 275524137e6c4cc1058f6d32ece248adf30a21f9
   Tapsbook: fba63e1bb687df0eb1db6b8fbce2d835860fbe6b
@@ -274,6 +279,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: 87a138ae5d585225aaa6c8abe2cface0f0ad19dd
   UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
 
-PODFILE CHECKSUM: baf4e9d4b6e5f2bcd5a4bf64db4414b38684b04c
+PODFILE CHECKSUM: 525a7949dcc085e8b91b2f3301b1c552899f0753
 
 COCOAPODS: 1.1.1

@@ -48,7 +48,7 @@
                                        kTBPreferredPageTypeSpread: @(YES)
                                        };
     NSDictionary * albumBookType8x8 =@{
-                                       kTBProductPreferredTheme:   @"201",  //200 is for square book
+                                       kTBProductPreferredTheme:   @"200",  //200 is for square book
                                        kTBProductPreferredSKU:     @"1003", //1003 is a layflat square book
                                        };
     

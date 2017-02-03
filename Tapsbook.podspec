@@ -59,7 +59,7 @@ Pod::Spec.new do |s|
   s.dependency 'pop', '~> 1.0'
   s.dependency 'SCLAlertView-Objective-C', '~> 0.7'
   s.dependency 'SDWebImage', '~> 3.7'
-  s.dependency 'SlackTextViewController', '~> 1.7'
+  s.dependency 'SlackTextViewController', '1.7'
   s.dependency 'smc-runtime', '~> 6.3'
   s.dependency 'TLLayoutTransitioning', '~> 1.0'
   s.dependency 'TTTAttributedLabel', '~> 1.13'

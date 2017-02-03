@@ -1,8 +1,13 @@
 platform :ios, 8.0
 
 def available_pods
-pod 'Tapsbook'
-pod 'TZImagePickerController', '~> 1.7.1'
+    pod 'Tapsbook', :path => '../../'
+    
+    # photo picker, feel free to swap it with yours.
+    pod 'TZImagePickerController', '~> 1.7.1'
+    
+    # Note the SlackTextViewController newer than 1.7 will cause an editor UI bug
+    pod 'SlackTextViewController', '1.7'
 
 #disabled for China build
 #pod 'GoogleAnalytics', '3.14.0'
